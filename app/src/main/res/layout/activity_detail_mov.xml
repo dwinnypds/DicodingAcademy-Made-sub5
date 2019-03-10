@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_linearLayout"
+    tools:context=".DetailMov">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_poster"
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="15dp"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_launcher_round" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="judul"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_popz"
+                        style="@style/style_tvDetail"
+                        android:layout_below="@+id/txt_judul"
+                        android:text="rating" />
+
+                    <TextView
+                        android:id="@+id/txt_releas_date"
+                        style="@style/style_tvDetail"
+                        android:layout_below="@id/txt_popz"
+                        android:text="waktu tayang" />
+
+                    <Button
+                        android:id="@+id/btn_paporit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="22dp"
+                        android:text="favotite" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_sinopsis"
+                style="@style/style_tvDetail"
+                android:text="@string/sinopsis" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

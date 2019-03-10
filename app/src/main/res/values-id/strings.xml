@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CatalogMov</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">PREMIERE APPS</string>
+    <string name="nav_header_subtitle">Gala Premiere</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Bahasa</string>
+    <string name="search_hint">Cari Film</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="menu_np">Sedang Tayang</string>
+    <string name="menu_up">Segera Tayang</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="waktu_tayang">Waktu Tayang</string>
+
+</resources>

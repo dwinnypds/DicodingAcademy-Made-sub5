@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CatalogMov</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">PREMIERE APPS</string>
+    <string name="nav_header_subtitle">Gala Premiere</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Bahasa</string>
+    <string name="search_hint">Cari Movie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="menu_np">Sedang Tayang</string>
+    <string name="menu_up">Segera Tayang </string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="waktu_tayang">waktu tayang</string>
+    <string name="menu_pap">Favorite</string>
+
+
+    <string name="favorit">Favorit</string>
+    <string name="tap_paporit">hapus favorit</string>
+    <string name="untap_paporit">favoritkan</string>
+    <string name="tap_Msg">Ditambahkan ke favorit</string>
+    <string name="untap_Msg">favorit di hapus</string>
+
+    <string name="notif_title">New Notification</string>
+    <string name="notif_content">Ada notif baru</string>
+    <string name="notif_title_daily">Buka Aplikasi untuk melihat film</string>
+    <string name="notif_title_new">Film baru telah release</string>
+
+
+</resources>
